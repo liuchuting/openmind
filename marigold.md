@@ -31,12 +31,15 @@ depth = pipe(image)
 
 vis = pipe.image_processor.visualize_depth(depth[0])
 vis[0].save("einstein_depth.png")
-
-depth_16bit = pipe.image_processor.export_depth_to_16bit_png(depth[0])
-depth_16bit[0].save("einstein_depth_16bit.png")
 ```
 
-<img src=./images/einstein_depth_16bit.png>
+<img src=./images/einstein_depth.png>
+
+Export as PNG with 16 bit depth.
+
+```python
+depth_16bit = pipe.image_processor.export_depth_to_16bit_png(depth[0])
+```
 
 ### MarigoldNormalsPipeline
 
