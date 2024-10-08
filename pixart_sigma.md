@@ -26,5 +26,4 @@ image = pipe(prompt)[0][0]
 image.save("pixart_sigma.jpg")
 ```
 
-Here is sample outputs.
 <img src=./images/pixart_sigma.jpg>

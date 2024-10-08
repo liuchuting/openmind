@@ -44,7 +44,6 @@ out_image = pipe(
 out_image.save("At night, glowing cubes in front of the beach.png")
 ```
 
-Here is sample outputs.
 <img src=./images/At night, glowing cubes in front of the beach.jpg>
 
 ### StableDiffusionXLAdapterPipeline
@@ -80,5 +79,4 @@ sketch_image_out = pipe(
 sketch_image_out.save("a photo of a dog in real world, high quality.png")
 ```
 
-Here is sample outputs.
 <img src=./images/a photo of a dog in real world, high quality.jpg>

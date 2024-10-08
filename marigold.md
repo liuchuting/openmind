@@ -36,7 +36,6 @@ depth_16bit = pipe.image_processor.export_depth_to_16bit_png(depth[0])
 depth_16bit[0].save("einstein_depth_16bit.jpg")
 ```
 
-Here is sample outputs.
 <img src=./images/einstein_depth_16bit.jpg>
 
 ### MarigoldNormalsPipeline
@@ -56,5 +55,4 @@ vis = pipe.image_processor.visualize_normals(normals[0])
 vis[0].save("einstein_normals.jpg")
 ```
 
-Here is sample outputs.
 <img src=./images/einstein_normals.jpg>

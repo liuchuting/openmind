@@ -30,5 +30,4 @@ images = pipe(prompt=prompt, image=init_image, strength=0.95, guidance_scale=7.5
 images.save("cat.jpg")
 ```
 
-Here is sample outputs.
 <img src=./images/cat.jpg>

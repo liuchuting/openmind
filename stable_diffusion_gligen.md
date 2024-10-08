@@ -39,7 +39,6 @@ images = pipe(
 images[0].save("./gligen-1-4-generation-text-box.png")
 ```
 
-Here is sample outputs.
 <img src=./images/gligen-1-4-generation-text-box.png>
 
 ### StableDiffusionGLIGENTextImagePipeline
@@ -78,5 +77,4 @@ images = pipe(
 images[0].save("./gligen-inpainting-text-image-box.png")
 ```
 
-Here is sample outputs.
 <img src=./images/gligen-inpainting-text-image-box.png>

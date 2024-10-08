@@ -12,6 +12,8 @@ A demo for the [SimianLuo/LCM_Dreamshaper_v7](https://huggingface.co/SimianLuo/L
 
 The pipelines were contributed by [luosiallen](https://luosiallen.github.io/), [nagolinc](https://github.com/nagolinc), and [dg845](https://github.com/dg845).
 
+## How to use
+
 ### LatentConsistencyModelImg2ImgPipeline
 
 ```python
@@ -33,5 +35,4 @@ images = pipe(
 images.save("image.png")
 ```
 
-Here is sample outputs.
 <img src=./images/snowy_mountains.jpg>
