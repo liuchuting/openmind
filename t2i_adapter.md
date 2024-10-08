@@ -76,7 +76,7 @@ sketch_image_out = pipe(
     guidance_scale=7.5,
 )[0][0]
 
-sketch_image_out.save("a photo of a dog in real world, high quality.png")
+sketch_image_out.save("a photo of a dog in real world, high quality.jpg")
 ```
 
-<img src=./images/a photo of a dog in real world, high quality.jpg>
+<img src=./images/a-photo-of-a-dog-in-real-world-high-quality.jpg>
