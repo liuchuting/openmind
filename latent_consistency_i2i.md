@@ -35,4 +35,4 @@ images = pipe(
 images.save("image.png")
 ```
 
-<img src=./images/snowy_mountains.jpg>
+<img src=./images/snowy_mountains.png>

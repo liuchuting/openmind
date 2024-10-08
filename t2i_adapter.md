@@ -41,7 +41,7 @@ out_image = pipe(
     image=color_palette,
 )[0][0]
 
-out_image.save("At night, glowing cubes in front of the beach.png")
+out_image.save("At night, glowing cubes in front of the beach.jpg")
 ```
 
 <img src=./images/At night, glowing cubes in front of the beach.jpg>

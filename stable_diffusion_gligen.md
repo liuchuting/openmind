@@ -36,10 +36,10 @@ images = pipe(
     num_inference_steps=50,
 )[0]
 
-images[0].save("./gligen-1-4-generation-text-box.png")
+images[0].save("./gligen-1-4-generation-text-box.jpg")
 ```
 
-<img src=./images/gligen-1-4-generation-text-box.png>
+<img src=./images/gligen-1-4-generation-text-box.jpg>
 
 ### StableDiffusionGLIGENTextImagePipeline
 
@@ -74,7 +74,7 @@ images = pipe(
     num_inference_steps=50,
 )[0]
 
-images[0].save("./gligen-inpainting-text-image-box.png")
+images[0].save("./gligen-inpainting-text-image-box.jpg")
 ```
 
-<img src=./images/gligen-inpainting-text-image-box.png>
+<img src=./images/gligen-inpainting-text-image-box.jpg>
